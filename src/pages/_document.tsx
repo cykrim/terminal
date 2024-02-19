@@ -5,7 +5,6 @@ import Document, {
   Main,
   NextScript,
 } from 'next/document';
-import { Analytics } from "../components/analytics/analytics";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -18,7 +17,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-        <Analytics />
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <link

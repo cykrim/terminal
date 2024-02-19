@@ -5,8 +5,8 @@
   "background_color": "#262626",
   "display": "fullscreen",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/terminal",
+  "start_url": "/terminal",
   "icons": [
     {
       "src": "terminal/android-icon-36x36.png",
