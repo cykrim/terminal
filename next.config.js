@@ -4,8 +4,8 @@
 
 const nextConfig = {
   output: 'export',
-  assetPrefix: 'terminal',
-  basePath: '/terminal',
+  assetPrefix: '.',
+  //basePath: '/terminal',
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
  
