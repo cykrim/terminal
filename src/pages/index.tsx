@@ -5,7 +5,6 @@ import { Input } from '../components/input';
 import { useShell } from '../utils/shellProvider';
 import { useTheme } from '../utils/themeProvider';
 import config from '../../config.json';
-import { Analytics } from "../components/analytics/analytics";
 
 interface IndexPageProps {
   inputRef: React.MutableRefObject<HTMLInputElement>;
@@ -27,7 +26,6 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
     <>
       <Head>
         <title>cykrim | Terminal</title>
-        <Analytics />
       </Head>
 
       <div

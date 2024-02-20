@@ -4,6 +4,7 @@ import { Layout } from '../components/layout';
 import '../styles/global.css';
 import { ShellProvider } from '../utils/shellProvider';
 import { ThemeProvider } from '../utils/themeProvider';
+import { Analytics } from "../components/analytics/analytics";
 
 const App = ({ Component, pageProps }) => {
   const inputRef = React.useRef<HTMLInputElement>(null);
@@ -20,6 +21,7 @@ const App = ({ Component, pageProps }) => {
     <ThemeProvider>
       <ShellProvider>
         <Head>
+          <Analytics />
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
